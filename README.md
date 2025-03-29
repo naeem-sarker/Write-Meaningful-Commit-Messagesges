@@ -45,7 +45,8 @@ feat: add user authentication
     
 This adds OAuth-based user authentication to the application. 
 Users can now log in with their Google account. 
-This change also includes user session management and updates to the database schema to store user credentials.
+This change also includes user session management and updates
+to the database schema to store user credentials.
     
 Fixes #235.
 ```
