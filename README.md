@@ -29,3 +29,21 @@ Footer: References to issues, e.g., "Fixes #1234". Mention any breaking changes.
 * **perf** : A code change that improves performance.
 * **test** : Adding missing or correcting existing tests.
 * **chore** : Changes to the build process or auxiliary tools and libraries.
+
+### Examples of Good Commit Messages
+
+* **Single-line Commit Message** 
+
+```sh
+feat: add user authentication
+```
+
+* **Multi-line Commit Message** 
+
+```sh
+feat: add user authentication
+    
+This adds OAuth-based user authentication to the application. Users can now log in with their Google account. This change also includes user session management and updates to the database schema to store user credentials.
+    
+Fixes #235.
+```
